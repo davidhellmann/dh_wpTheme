@@ -4,9 +4,9 @@
 
     acf_add_options_page();
 
-    acf_add_options_sub_page('Stage Slider');
-    acf_add_options_sub_page('Stores');
-    acf_add_options_sub_page('Red Bull Worlds');
+    acf_add_options_sub_page('Subpage 1');
+    acf_add_options_sub_page('Subpage 2');
+    acf_add_options_sub_page('Subpage 3');
 
   }
 
