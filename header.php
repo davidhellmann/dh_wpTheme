@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/app.min.css?ver=<?php echo filemtime(get_stylesheet_directory() . '/assets/css/app.min.css'); ?>">
 
   <!-- Modernizr -->
-  <script src="<?php bloginfo('template_directory' ); ?>/assets/js/vendor/modernizr-custom.min.js"></script>
+  <script src="<?php bloginfo('template_directory' ); ?>/assets/js/vendor/modernizr-custom.min.js" async></script>
 
   <!-- Favicon -->
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php bloginfo('template_directory' ); ?>/assets/images/favicon/apple-touch-icon-57x57.png" />
