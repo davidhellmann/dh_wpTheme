@@ -5,8 +5,8 @@
 
   <?php wp_footer(); ?>
   <!-- Javascripts -->
-  <script src="<?php bloginfo('template_url'); ?>/assets/js/plugins.min.js?ver=<?php echo filemtime(get_stylesheet_directory() . '/assets/js/plugins.min.js'); ?>" async></script>
-  <script src="<?php bloginfo('template_url'); ?>/assets/js/app.min.js?ver=<?php echo filemtime(get_stylesheet_directory() . '/assets/js/app.min.js'); ?>" async></script>
+  <script src="<?php bloginfo('template_url'); ?>/assets/js/plugins.min.js?ver=<?php echo filemtime(get_stylesheet_directory() . '/assets/js/plugins.min.js'); ?>"></script>
+  <script src="<?php bloginfo('template_url'); ?>/assets/js/app.min.js?ver=<?php echo filemtime(get_stylesheet_directory() . '/assets/js/app.min.js'); ?>"></script>
 
 <?php
 $host = $_SERVER['HTTP_HOST'];
