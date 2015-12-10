@@ -18,6 +18,9 @@
   // Remove jQuery Migrate and add jQuery Core
   require_once( 'functions/removeAddjQuery.php' );
 
+  // Remove Admin Bar
+  require_once( 'functions/removeAdminBar.php' );
+
   // Remove WP Generator
   require_once('functions/removeWPGenerator.php');
 
