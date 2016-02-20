@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="pageContent">
+<div class="appContent">
   <? if (have_posts()) :
     while (have_posts()) : the_post(); ?>
 
