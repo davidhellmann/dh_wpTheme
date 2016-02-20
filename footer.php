@@ -1,4 +1,4 @@
-  <footer class="pageFooter">
+  <footer class="appFooter">
     PAGE FOOTER
   </footer>
 </div>
